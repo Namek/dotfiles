@@ -1,0 +1,44 @@
+[push]
+	default = matching
+[core]
+	editor = nano
+	fileMode = false
+	trustctime = false
+	whitespace = cr-at-eol
+[color]
+	ui = true
+[credential]
+	helper = cache
+[merge]
+	tool = vimdiff
+[mergetool]
+	keeptemporaries = false
+	keepbackups = false
+	prompt = false
+	trustexitcode = false
+[alias]
+	last = log -1 --stat
+	ca = commit --amend
+	cp = cherry-pick
+	co = checkout
+	cl = clone
+	ci = commit
+	st = status
+	br = branch
+	rb = rebase
+	rbc = rebase --continue
+	unstage = reset HEAD --
+	dc = diff --cached
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %Cblue<%an>%Creset' --abbrev-commit --date=relative --all
+	pom = pull --rebase origin master
+	pushom = push origin master
+	pullom = pull --rebase origin master
+	logg = log --graph
+	wc = whatchanged
+	wcp = whatchanged -p
+[author]
+	name = Kamil Dąbrowski
+	email = kamil@namekdev.net
+[user]
+	name = Namek
+	email = nameczanin@gmail.com
