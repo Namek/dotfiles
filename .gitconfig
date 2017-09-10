@@ -1,7 +1,7 @@
 [push]
 	default = matching
 [core]
-	editor = nano
+	editor = vim
 	fileMode = false
 	trustctime = false
 	whitespace = cr-at-eol
