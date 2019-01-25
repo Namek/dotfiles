@@ -16,6 +16,10 @@
 	keepbackups = false
 	prompt = false
 	trustexitcode = false
+[rebase]
+	autoStash = true
+[pull]
+	rebase = true
 [alias]
 	last = log -1 --stat
 	ca = commit --amend
